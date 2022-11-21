@@ -1,0 +1,67 @@
+# This is a basic workflow to help you get started with Actions
+
+name: COSMIC LOVE
+
+# Controls when the workflow will run
+on:
+  # thoughts on registration;
+A registration must use an invitation code
+The second is divided into merchant registration and user registration
+1Registration information Merchant (company name) Individual (name)
+2 Actual controller (persons not shown)
+3 registration id
+4 Photo of registration certificate Passport or ID card
+5 phone
+6 Email otp verification
+7Business qualifications (not required) are not displayed for individuals
+  push:
+    branches: [ "Register to decentralize and check the Risk Disclosure Statement
+  After the registration of this person, the permission is given according to the distribution of the app in the future. The account is common to the app.
+Click submit, next step, register and set face recognition in the background" ]
+  pull_request:
+    branches: [ "Our future app will need real name" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    #App features (consider listing the global app market)
+Alternative app name cosmic love
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Function: 1 digital wallet
+2NFT storage (make our own private chain first, and then upgrade to the public chain if the project is purchased well)
+3 Quickly buy and sell digital assets (the variety is determined according to the upstream)
+4vip area: a is open for users who have purchased NFT funds and users who pay annual fees
+            b Internal design chat room, and push the progress of NFT projects from time to time (the function of this area will be updated after it goes online, and then the details will be added)
+5 NFT certificate pledge area: pledge area The value is calculated independently for each certificate Total total amount Locked days * 10/738 The sum of all certificates The minimum pledge right is 3000 contract interest daily interest rate 0.0005 (10,000 five)
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name:ddigital wallet
+        run:
+        |Financial risk control policy:
+All merchants designate a time every Friday afternoon (set when the settlement account is bound in the background). Exceeds will be charged a 0.5% fund management fee according to the balance.
+If the settlement account has been bound, it will be automatically sent to the settlement account according to the settlement time set in the background
+Set up the financial account of the receiving node wallet to regularly distribute the amount of the reserve fund in the background for each distribution (for example, set 10,000 (the setting can be changed, and automatically send more than 10,000 yuan to the financial wallet every hour, the most A cold wallet with good financial equipment), when the balance of the merchant's payment wallet is less than 1000, the mailbox and SMS will warn the finance and cashier at the same time and terminate all the payment services.
+
+The payment logic for the merchant is temporarily all the payment for the seller. According to the exchange rate and amount of the order and the payment rate, the payment is directly deducted from the merchant's balance (the customer's order is successfully deducted immediately). If the merchant's balance is insufficient, the customer cannot initiate the transaction successfully. Sign up for mail and text messages.
+
+In the merchant's backstage, this is the red u interface, which is convenient for timely recharge. The merchant's recharge is charged according to the u collection.
+
+
+The upstream legal currency payment should also be connected, and the default is for the merchant to pay on behalf of the user.
+We still have several channels for receiving fiat currency, and we also open api payment for individual fiat currency merchants together, that is, whether to combine the agency payment or the combination. Merchants who have opened fiat currency payment will be prioritized according to the weight set by us.
+
+The setting rules of agency payment: first check whether there is a guaranteed minimum rate, then look at the rate ratio and then set the comparison amount or superimposed charging, so that it is foolproof. The agency payment rate is arranged in the same way as the agency collection. There is a difference
+          echo Add other actions to build,
+          echo test, and deploy your project.
